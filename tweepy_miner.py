@@ -5,10 +5,6 @@ from tweepy import API
 from pymongo import MongoClient
 import json
 
-CONSUMER_KEY = 'whkZpq3Gx0YQtRcIiQbTzpTwf'
-CONSUMER_SECRET = 'euPC1IkuROzFprUGrh8BBkaonpfQro3JFvkl9IsVxeuBIxjgVY'
-OAUTH_TOKEN = '94479994-KhFGiLS6P9StQfHdZ6HqoM9dCjpnBBz2bHqCi5D4E'
-OAUTH_TOKEN_SECRET = 'XJOCoajuDwlVZ6H2jFa1pqr4C8SPOtabBrtuKdcInNFKc'
 
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(OAUTH_TOKEN, OAUTH_TOKEN_SECRET)
